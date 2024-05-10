@@ -1,0 +1,90 @@
+body {
+     
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,red, purple,blue);
+}
+
+.highlight {
+    color: blue;
+}
+.lewo{
+float: left;
+width: 45%;
+}
+.prawo{
+    float: right;
+    width: 45%;
+    
+        }
+    .card{
+        height: 100%;
+        width: 100%;
+        border: 2px solid yellow;
+     
+        background-color: #1a1a1a;
+     
+        border-radius: 10px;
+        box-shadow: 0 0 10px yellow;
+        color: yellow;
+    }
+    h6{
+
+        font-size: 2em;
+        background: linear-gradient(135deg,#0080bf,#00acdf);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: holographic 10s ease infinite;
+    }
+    button{
+        border: 2px solid red;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #1a1a1a!important;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    color: red!important;
+    }
+    input{
+        border: 2px solid #00ff00;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+   
+        border-radius: 10px;
+        box-shadow: 0 0 10px #00ff00;
+        color: #00ff00;
+
+    }
+
+
+.inne{
+
+text-align: center;
+}
+.ost{
+
+    color:white;
+
+    font-size: 14px;
+    text-align: center;
+}
+
+      
+      .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid purple;
+        margin: 0 4px;
+      }
+img{margin:10px;}

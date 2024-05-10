@@ -1,0 +1,13 @@
+Stworzyć stronę w htmlu z użyciem bootstrapa, gdzie będziesz miał listę produktów ułożonych w gridzie.
+Produkty będą miały nazwę, cenę oraz producenta. Do stworzenia produktów polecam użyć metod na listach dostępnych w javascripcie. W tym zadaniu nie musisz zapisywać nic do bazy danych, wystarczą podstawowe struktury danych jak listy, słowniki, krotki.
+
+
+
+
+
+3. Zaprogramować prostą paginację. Produktów może być więcej niż 10 czy 20 i w pewnym momencie użytkownik traci kontrolę nad tym co widzi, stąd dbając o UI/UX należy zrobić prosty podział na strony. Jak czujesz się na siłach to możesz zaproponować wybór - ile elementów ma znajdować się na jednej stronie, że będziemy mogli sobie podzielić na strony po 5 produktów, po 10, czy po 50.
+*po kategori filtrowanie
+
+
+
+11:07 10.05.2024

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład paginacji</title>
+    <style>
+		.
+    </style>
+</head>
+<body>
+	<div id="pagination">
+
+		<button onclick="goToPage(1)">1</button>
+		<button onclick="goToPage(2)">2</button>
+		<button onclick="goToPage(3)">3</button>
+		<button onclick="goToPage(4)">4</button>
+		<button onclick="goToPage(5)">5</button>
+	
+		<button onclick="goToPage(7)">7</button>
+		<span id="current-page"></span>   
+	
+	</div>
+	
+	<div id="content">
+
+	
+	</div>
+	<script>
+
+		function goToPage(page) {
+		
+			document.getElementById("current-page").innerHTML = page;
+		
+			var content = "";
+			switch (page) {
+				case 1:
+					content = "<div class='card' style='width: 18rem;'><div class='card-body'><h5 class='card-title'>Card title</h5><p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p></div></div> <div class='card' style='width: 18rem;'><div class='card-body'><h5 class='card-title'>Card title</h5><p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p></div></div>";
+					
+					break;
+				case 2:
+					content = "<div class='card' style='width: 18rem;'><div class='card-body'><h5 class='card-title'>Card title</h5><p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p></div></div>";
+					break;
+				case 3:
+					content = "<div class='card' style='width: 18rem;'><div class='card-body'><h5 class='card-title'>Card title</h5><p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p></div></div>";
+					break;
+			
+			}
+			document.getElementById("content").innerHTML = content;
+			
+		}
+	</script>
+</body>
+</html>

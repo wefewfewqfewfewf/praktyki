@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zadanie</title>
+<link rel="icon" type="image/x-icon" href="logo.jpg">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container mt-5">
+    <section class="lewo">
+    <input type="text" id="searchInput" class="form-control mb-3" placeholder="Wyszukaj produkt...">
+    <div class="row" id="productList">
+    </div>
+    </section>
+    <div class="mt-3">
+        <section class="prawo">   
+       <div id="filters" class="form-group">
+            <h6>Filtr</h6>
+            <input type="text" id="minPrice" class="form-control mb-2" placeholder="Cena od...">
+            <input type="text" id="maxPrice" class="form-control mb-2" placeholder="Cena do...">
+            <button id="filterButton" class="btn btn-dark mb-2">Filtruj</button>
+        </div>
+        <div id="manufacturers">         
+        </div>
+        <div class="inne"
+id="pagination">
+<h6>Inne</h6>
+<button onclick="goToPage(1)">o nas</button>
+<button onclick="goToPage(2)">social</button>
+<button  onclick="goToPage(3)">kontakt</button>
+
+
+
+<span id="current-page"></span> 
+
+</div>
+<div class="ost" id="content"></div>  
+    </section>
+    </div>
+</div>
+
+  </div>
+<script src="skrypt.js"></script>
+</body>
+</html>
